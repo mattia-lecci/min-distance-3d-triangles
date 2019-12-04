@@ -11,6 +11,9 @@ T2 = randn(1, 9);
 [dist, p1, p2] = simdTriTri2(T1,T2);
 ```
 
+A visualization example is here reported as well:
+![Visualization example from minTriangDistVisualization](visualization_example.png)
+
 The code has been translated from optimized C++ SSE/SIMD directly into unoptimized MATLAB code.
 Variables, inputs, outputs, and function names have been kept the same for a 1-to-1 comparison with the original code.
 
